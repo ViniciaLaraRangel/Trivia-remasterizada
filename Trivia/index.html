@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <title>Remasterizada EsVi</title>
+</head>
+
+<body>
+   <!--Comienzan cajas superiores izquierda y derecha-->
+<body>
+        <header>
+    <!--Comienzan cajas superiores izquierda y derecha-->
+          <div class="boxOne" id="head-left">
+            <p>TRIVIA<p>
+          </div>
+
+          <div class="boxOne" id="head-right">
+            
+            <p id= "saludar">!Bienvenidx!<span id="persona"></span></p>
+
+            <input type="text" id="userName" placeholder= "ingresa tu nombre">
+          <button onclick="conseguirNombre()">Comenzar</button>
+            
+        </div>
+        </header>
+    <!--Comienza las cajas de las categorias, esta es la parte FIJA-->
+     <div id="secondBox">
+        <ul>
+          <li>TRANSFORMACIONES</li>
+          <li>POCIONES</li>
+          <li class="active">SOMBRERO SELECCIONADOR</li>
+          <li>QUIDITCH</li>
+        </ul>
+     <!--Nombre de la trivia-->
+          <div id ="tituloTrivia">    
+            <h2>HARRY POTTER Y LA TRIVIA MALDITA</h2>
+          </div>
+      </div>
+      <!--Caja de respuestas correctas-->
+      <div id="canvas">
+            <div id="cuadro">
+              <div id="resultados">
+                <div id="correctas">
+                <img src="https://vignette.wikia.nocookie.net/harrypotterfanon/images/f/f0/Gryffindor_Crest_Transparent.png/revision/latest?cb=20170418124111">
+                  <div id="preguntaCorrecta1"></div>
+                  <div id="preguntaCorrecta2"></div>
+                  <div id="preguntaCorrecta3"></div>
+     <!--Caja de respuestas incorrecta-->    
+              <div id="incorrectas">
+                <img src="https://vignette.wikia.nocookie.net/es.harrypotter/images/6/69/Slytherin_Pottermore.png/revision/latest?cb=20141001130915">
+                <div class="preguntaIncorrecta">
+                  <div id="preguntaIncorrecta1">                 </div>
+                  <div id="preguntaIncorrecta2">                 </div>
+                  <div id="preguntaIncorrecta3">
+              </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+    
+<script type="text" src="app.js"></script>
+</body>
+
+</html>
